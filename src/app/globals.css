@@ -25,5 +25,9 @@ body {
   border: 10px solid rgba(0, 0, 0, 0.1);
   background: rgba(236, 22, 255, 0.26);
   backdrop-filter: blur(30px);
-  /* transform: rotate(-2deg); */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: none;
 }
