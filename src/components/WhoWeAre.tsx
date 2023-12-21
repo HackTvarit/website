@@ -8,7 +8,7 @@ const WhoWeAre = () => {
         className="my-20 p-14 flex flex-col gap-8 items-center relative rounded-lg"
         style={{
           background: "linear-gradient(180deg, #0F002F 0%, #051745 100%)",
-          boxShadow: "box-shadow: 0px 0px 14.6px 7px rgba(0, 0, 0, 0.52)",
+          boxShadow: "0px 0px 14.6px 7px rgba(0, 0, 0, 0.52)",
         }}
       >
         <div className="text-[#E1E1E1] text-6xl text-center font-extrabold">
@@ -26,7 +26,7 @@ const WhoWeAre = () => {
         />
         <div className="text-center px-14">
           {
-            "Welcome to the heartbeat of innovation! HackTvarit is not just an event; it's a community-driven platform designed to inspire, challenge, and elevate the tech enthusiasts of tomorrow. AtHackTvarit]. Our mission is to provide a space where aspiring developers, designers, and innovators can come together, learn from each other, and build solutions that have a real-world impact."
+            "Welcome to the heartbeat of innovation! HackTvarit is not just an event; it's a community-driven platform designed to inspire, challenge, and elevate the tech enthusiasts of tomorrow. At HackTvarit. Our mission is to provide a space where aspiring developers, designers, and innovators can come together, learn from each other, and build solutions that have a real-world impact."
           }
         </div>
         <button className="px-8 mt-8 py-4 text-[#002C82] rounded-lg font-bold bg-white text-lg">
