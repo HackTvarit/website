@@ -8,7 +8,7 @@ const Faq = () => {
   const [faq, setFaq] = useState(-1);
 
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto" id="faq">
       <div className="py-20 flex flex-col gap-6">
         {[...Array(5)].map((value, index) => {
           return (

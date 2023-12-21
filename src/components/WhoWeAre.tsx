@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto" id="aboutUs">
       <div
         className="my-20 p-14 flex flex-col gap-8 items-center relative rounded-lg"
         style={{

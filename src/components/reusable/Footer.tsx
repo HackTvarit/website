@@ -93,7 +93,7 @@ export function Footer() {
               <a href="">
                 <FaTelegram />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/hacktvarit/">
                 <AiFillInstagram />
               </a>
               <a href="https://www.youtube.com/">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Prizes = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto" id="prizes">
       <div className="flex justify-center items-end gap-8">
         <div
           className="py-8 px-4 w-96 items-center rounded-lg"

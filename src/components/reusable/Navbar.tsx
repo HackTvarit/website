@@ -9,11 +9,11 @@ const Navbar = (props: Props) => {
     <nav className="max-w-screen-xl items-center mx-auto py-4 flex justify-between">
       <Image src="/images/NavLogo.svg" alt="" height={77} width={103} />
       <div className="flex gap-14">
-        <Link href="">Home</Link>
-        <Link href="">About</Link>
-        <Link href="">Contact</Link>
-        <Link href="">Prizes</Link>
-        <Link href="">FAQ</Link>
+        <Link href="/">Home</Link>
+        <Link href="#aboutUs">About</Link>
+        <Link href="#contact">Contact</Link>
+        <Link href="#prizes">Prizes</Link>
+        <Link href="#faq">FAQ</Link>
       </div>
       <button className="nav-shadow px-8 py-4 text-[#002C82] rounded-lg bg-white text-lg font-semibold">
         Register

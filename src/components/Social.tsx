@@ -6,7 +6,7 @@ import { BsDiscord } from "react-icons/bs";
 
 const Social = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto" id="contact">
       <div
         className="rounded-lg px-8 py-14"
         style={{

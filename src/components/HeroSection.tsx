@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="Home">
       <div className="max-w-screen-xl mx-auto text-center">
         <div className="flex justify-center">
           <Image src="/images/HomeName.svg" alt="" width={517} height={160} />
