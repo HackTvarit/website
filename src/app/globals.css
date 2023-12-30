@@ -33,3 +33,7 @@ body {
   width: 0px;
   background: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
