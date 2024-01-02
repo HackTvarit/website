@@ -65,9 +65,11 @@ const Social = () => {
           </div>
         </div>
         <div className="flex justify-center text-xl mt-8">
+          <a href="https://discord.gg/Sb3FMt8m">
           <button className="border border-white py-4 px-6 rounded">
             Join Our Community
           </button>
+          </a>
         </div>
       </div>
     </div>

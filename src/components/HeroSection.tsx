@@ -21,9 +21,11 @@ const HeroSection = () => {
         <span className="text-[#FFEFC5]">Code the Future</span>
       </div>
       <div className="flex justify-center text-xl mt-20">
+        <a href="https://discord.gg/Sb3FMt8m">
         <button className="border border-white py-4 px-6 rounded">
           Join Our Community
         </button>
+        </a>
       </div>
     </div>
   );

@@ -24,6 +24,7 @@ const Tracks = () => {
               r="499"
               stroke="#8722AA"
               stroke-width="2"
+              className="animate-pulse"
             />
             <circle
               cx="-157"
@@ -31,6 +32,7 @@ const Tracks = () => {
               r="399"
               stroke="#4E0369"
               stroke-width="2"
+              className="animate-pulse"
             />
           </svg>
         </div>
@@ -58,6 +60,7 @@ const Tracks = () => {
               r="499"
               stroke="#8722AA"
               stroke-width="2"
+              className="animate-pulse"
             />
             <circle
               cx="523"
@@ -65,6 +68,7 @@ const Tracks = () => {
               r="399"
               stroke="#4E0369"
               stroke-width="2"
+              className="animate-pulse"
             />
           </svg>
         </div>
@@ -78,7 +82,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/1.png"
+              src="/images/tracks/3.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -103,7 +107,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/3.png"
+              src="/images/tracks/1.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -116,7 +120,7 @@ const Tracks = () => {
               width={386}
             />
             <div className="text-[2.1rem] font-bold text-center">
-              Social Impact & Sustainability
+              Machine Learning & Artificial Intelligence
             </div>
           </div>
           <div
@@ -128,7 +132,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/5.png"
+              src="/images/tracks/2.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -141,34 +145,11 @@ const Tracks = () => {
               width={386}
             />
             <div className="text-[2.1rem] font-bold text-center">
-              Open Innovation
+            Cloud & Devops
             </div>
           </div>
-          <div
-            className="py-6 rounded-lg flex flex-col items-center h-max w-[395px] px-2"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(194, 108, 246, 0.24) 0%, rgba(62, 81, 255, 0.24) 100%)",
-              backdropFilter: "blur(7.800000190734863px)",
-            }}
-          >
-            <Image
-              src="/images/tracks/1.png"
-              style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
-              alt=""
-              height={193}
-              width={329}
-            />
-            <Image
-              src="/images/tracks/star.png"
-              alt=""
-              height={84}
-              width={386}
-            />
-            <div className="text-[2.1rem] font-bold text-center">
-              Security & Cloud
-            </div>
-          </div>
+
+          
         </div>
         <svg
           width="73"
@@ -177,8 +158,8 @@ const Tracks = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <line x1="37.75" y1="839" x2="37.75" stroke="#D4D4D4" />
-          <line x1="37.5" y1="3298" x2="37.5001" y2="912" stroke="#D4D4D4" />
+          <line x1="37.75" y1="839" x2="37.75" stroke="#D4D4D4"/>
+          <line x1="37.5" y1="3150" x2="37.5001" y2="912" stroke="#D4D4D4" />
           <circle cx="36.5" cy="875.5" r="36" stroke="#D7D5D5" />
         </svg>
 
@@ -192,7 +173,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/2.png"
+              src="/images/tracks/6.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -205,7 +186,7 @@ const Tracks = () => {
               width={386}
             />
             <div className="text-[2.1rem] font-bold text-center">
-              Gaming & Development
+              Argumented/Virtual Reality
             </div>
           </div>
           <div
@@ -217,7 +198,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/4.png"
+              src="/images/tracks/5.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -230,7 +211,8 @@ const Tracks = () => {
               width={386}
             />
             <div className="text-[2.1rem] font-bold text-center">
-              Technology & Software Development
+              IOT & embedded system
+
             </div>
           </div>
           <div
@@ -242,7 +224,7 @@ const Tracks = () => {
             }}
           >
             <Image
-              src="/images/tracks/5.png"
+              src="/images/tracks/4.jpg"
               style={{ boxShadow: "0px 4px 5px 0px rgba(41, 41, 41, 0.31)" }}
               alt=""
               height={193}
@@ -255,7 +237,7 @@ const Tracks = () => {
               width={386}
             />
             <div className="text-[2.1rem] font-bold text-center">
-              Security & Cloud
+            Open Track: Innovation for Good
             </div>
           </div>
         </div>

@@ -3,11 +3,8 @@ import Link from "next/link";
 import { AiFillInstagram } from "react-icons/ai";
 import {
   FaDiscord,
-  FaLinkedin,
   FaRegCopyright,
-  FaTelegram,
   FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 
 export function Footer() {
@@ -84,22 +81,13 @@ export function Footer() {
               hacktvarit@gmail.com
             </a>
             <div className="mt-3 flex items-center gap-3 text-x ">
-              <a href="https://twitter.com/">
+              <a href="https://twitter.com/HackTvarit">
                 <FaTwitter />
-              </a>
-              <a href="https://www.linkedin.com/">
-                <FaLinkedin />
-              </a>
-              <a href="">
-                <FaTelegram />
               </a>
               <a href="https://www.instagram.com/hacktvarit/">
                 <AiFillInstagram />
               </a>
-              <a href="https://www.youtube.com/">
-                <FaYoutube />
-              </a>
-              <a href="">
+              <a href="https://discord.gg/Sb3FMt8m">
                 <FaDiscord />
               </a>
             </div>
